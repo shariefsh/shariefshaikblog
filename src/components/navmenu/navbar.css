@@ -1,0 +1,57 @@
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  /* background-color: #2e374e; */
+  background-color: #01091d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--color-white);
+  text-align: center;
+  /* padding: 14px 16px; */
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #b0bbc4;
+  color: var(--color-white);
+  
+}
+
+.navbar a.active {
+  /* background: #3a9ef1; */
+  background: #89dab7;
+  color: black;
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM) DEVICES =============== */
+@media screen and (max-width:1024px) {
+  .topnav-right {
+    float: left;
+  }
+
+  .navbar a {
+    padding: 0.5rem 0.9rem;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL) DEVICES =============== */
+@media screen and (max-width:600px) {
+  .topnav-right {
+    float: left;
+  }
+  .navbar a {
+    padding: 0.1rem 0.2rem;
+  }
+}

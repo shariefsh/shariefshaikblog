@@ -1,0 +1,40 @@
+
+
+.work__content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.work__card {
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    height: 30%;
+}
+
+.work__card_details {
+    background: var(--color-bg-variant);
+}
+
+/* =============== MEDIA QUERIES (MEDIUM) DEVICES =============== */
+@media screen and (max-width:1024px) {
+    .work__container {
+     grid-template-columns: 1fr;
+     gap: 0;
+    } 
+ }
+ 
+ /* =============== MEDIA QUERIES (SMALL) DEVICES =============== */
+ @media screen and (max-width:600px) {
+     .work__content {
+         grid-template-columns: 1fr 1fr;
+         gap: 1rem;
+     }
+ 
+     .work__card {
+         text-align: center;
+     }
+ }
