@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/shariefshaikblog/static/css/main.9c5324c8.css",
+    "main.js": "/shariefshaikblog/static/js/main.59a3b4c3.js",
+    "static/media/aum.jpg": "/shariefshaikblog/static/media/aum.9bad675299bc5dfeed66.jpg",
+    "static/media/ShariefShaik.pdf": "/shariefshaikblog/static/media/ShariefShaik.d0fdf22a29d50a3b6957.pdf",
+    "static/media/Sharief2.jpg": "/shariefshaikblog/static/media/Sharief2.0d29fd2f594ca320a2ea.jpg",
+    "static/media/cyient.jpg": "/shariefshaikblog/static/media/cyient.e361191823c67f142174.jpg",
+    "static/media/sharief.jpg": "/shariefshaikblog/static/media/sharief.83b1fd42f34d6ba9cea4.jpg",
+    "index.html": "/shariefshaikblog/index.html",
+    "main.9c5324c8.css.map": "/shariefshaikblog/static/css/main.9c5324c8.css.map",
+    "main.59a3b4c3.js.map": "/shariefshaikblog/static/js/main.59a3b4c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c5324c8.css",
+    "static/js/main.59a3b4c3.js"
+  ]
+}
